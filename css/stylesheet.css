@@ -128,19 +128,18 @@ nav {
 	top:0;
 	left:0;
 	right:0;
-	height:55px;
+	height:50px;
 	background-color:#262829;
 }
 
 nav .container {
 	padding-top:0;
 	padding-bottom:0;
-	height:55px;
+	height:50px;
 }
 
 .container {
 	position:relative;
-	width:100%;
 	max-width:1140px;
 	margin:0 auto;
 	overflow:hidden;
@@ -162,10 +161,16 @@ nav li a {
 	color:#909090;
 }
 
-nav li a:hover {
+#nav-menu a:hover {
 	color:#21abc9;
 }
 
 nav li.selected a {
 	color:white;
+}
+
+#social-links {
+	position:absolute;
+	top:0;
+	right:1em;
 }
