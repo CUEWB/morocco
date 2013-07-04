@@ -143,6 +143,9 @@ nav .container {
 	max-width:1140px;
 	margin:0 auto;
 	overflow:hidden;
+}
+
+.padded {
 	padding-left:2em;
 	padding-right:2em;
 }
@@ -165,7 +168,7 @@ nav li a {
 	color:#21abc9;
 }
 
-nav li.selected a {
+#nav-menu li.selected a {
 	color:white;
 }
 
@@ -173,4 +176,16 @@ nav li.selected a {
 	position:absolute;
 	top:0;
 	right:1em;
+}
+
+#home {
+	overflow:hidden;
+	padding-top:75px;
+	padding-bottom:25px;
+}
+
+#home img {
+	display:block;
+	margin:0 auto;
+	width:960px;
 }
