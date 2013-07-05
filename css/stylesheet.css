@@ -113,15 +113,6 @@ html, body {
 	min-width:960px;
 }
 
-a {
-	text-decoration:none;
-	color:#21abc9;
-}
-
-a:hover {
-	color:#e95a50;
-}
-
 nav {
 	position:fixed;
 	z-index:100;
@@ -189,15 +180,28 @@ nav li a {
 	margin:0 auto;
 }
 
+a {
+	text-decoration:none;
+	color:#4478be;
+}
+
+a:hover {
+	color:#e95a50;
+}
+
+.page-section {
+	padding-bottom:4em;
+}
+
 .section-info {
-	padding:7em 4em 0 4em;
+	padding:9em 4em 0 4em;
 }
 
 .section-title {
 	position:absolute;
-	margin-top:2em;
+	margin-top:60px;
 	padding-top:.8em;
-	width:8.5em;
+	width:10em;
 	height:2em;
 	background-color:#262829;
 	color:white;
