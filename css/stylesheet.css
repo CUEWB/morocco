@@ -193,6 +193,11 @@ a:hover {
 	padding-bottom:60px;
 }
 
+.page-section-dark {
+	padding-bottom:60px;
+	background-color:#262829;
+}
+
 .section-info {
 	padding:9em 4em 0 4em;
 }
@@ -210,6 +215,11 @@ a:hover {
 	font-weight:500;
 }
 
+.page-section-dark .section-title {
+	background-color:white;
+	color:#262829;
+}
+
 .section-subtitle {
 	margin:0 auto 1em auto;
 	width:90%;
@@ -217,6 +227,12 @@ a:hover {
 	font-size:1.6em;
 	font-weight:500;
 	text-align:center;
+}
+
+.page-section-dark .section-subtitle {
+	width:960px;
+	font-size:1em;
+	color:white;
 }
 
 .section-subtitle span {
@@ -248,4 +264,27 @@ a:hover {
 .section-desc p {
 	margin-bottom:.5em;
 	font-weight:400;
+}
+
+#sponsors .sponsor-row {
+	margin:0 auto;
+	width:960px;
+	text-align:center;
+}
+
+#sponsors .sponsor-link img {
+	position:relative;
+	top:3px;
+	margin:.75em 1.5em;
+	opacity:1;
+	transition: all 200ms;
+	-webkit-transition:all 200ms;
+	-moz-transition:all 200ms;
+	-ms-transition:all 200ms;
+	-o-transition:all 200ms;
+}
+
+#sponsors .sponsor-link img:hover {
+	top:0;
+	opacity:.5;
 }
