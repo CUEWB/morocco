@@ -153,6 +153,11 @@ nav li a {
     height:100%;
     font-weight:500;
     color:#909090;
+    transition:all 100ms;
+    -webkit-transition:all 100ms;
+    -moz-transition:all 100ms;
+    -ms-transition:all 100ms;
+    -o-transition:all 100ms;
 }
 
 #nav-menu a:hover {
@@ -338,6 +343,11 @@ footer #footer-social .social-link {
     width:30px;
     height:30px;
     background-color:#b0b0b0;
+    transition:all 100ms;
+    -webkit-transition:all 100ms;
+    -moz-transition:all 100ms;
+    -ms-transition:all 100ms;
+    -o-transition:all 100ms;
 }
 
 footer #footer-social .social-link:hover {
