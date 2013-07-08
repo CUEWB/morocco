@@ -271,7 +271,7 @@ a:hover {
     text-align:center;
 }
 
-#sponsors .sponsor-link img {
+#sponsors .image-link img {
     position:relative;
     top:3px;
     margin:.75em 1.5em;
@@ -283,7 +283,7 @@ a:hover {
     -o-transition:all 200ms;
 }
 
-#sponsors .sponsor-link img:hover {
+#sponsors .image-link img:hover {
     top:0;
     opacity:.5;
 }
