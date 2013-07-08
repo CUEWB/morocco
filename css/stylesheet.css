@@ -332,18 +332,19 @@ footer p {
     left:4em;
 }
 
-footer .social-link {
+footer #footer-social .social-link {
     display:inline-block;
     margin-right:10px;
-    width:29px;
-    height:29px;
+    width:30px;
+    height:30px;
+    background-color:#b0b0b0;
 }
 
-footer #facebook { background:url('../images/social/facebook.png'); }
-footer #facebook:hover { background:url('../images/social/facebook-blue.png'); }
+footer #footer-social .social-link:hover {
+	background-color:#21abc9;
+}
+
+footer #facebook { background-image:url('../images/social/facebook.png'); }
 footer #google { background:url('../images/social/google.png'); }
-footer #google:hover { background:url('../images/social/google-blue.png'); }
 footer #twitter { background:url('../images/social/twitter.png'); }
-footer #twitter:hover { background:url('../images/social/twitter-blue.png'); }
 footer #git { background:url('../images/social/git.png'); }
-footer #git:hover { background:url('../images/social/git-blue.png'); }
