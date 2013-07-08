@@ -327,7 +327,23 @@ footer p {
 }
 
 #footer-logo {
-	position:absolute;
-	bottom:4em;
-	left:4em;
+    position:absolute;
+    bottom:4em;
+    left:4em;
 }
+
+footer .social-link {
+    display:inline-block;
+    margin-right:10px;
+    width:29px;
+    height:29px;
+}
+
+footer #facebook { background:url('../images/social/facebook.png'); }
+footer #facebook:hover { background:url('../images/social/facebook-blue.png'); }
+footer #google { background:url('../images/social/google.png'); }
+footer #google:hover { background:url('../images/social/google-blue.png'); }
+footer #twitter { background:url('../images/social/twitter.png'); }
+footer #twitter:hover { background:url('../images/social/twitter-blue.png'); }
+footer #git { background:url('../images/social/git.png'); }
+footer #git:hover { background:url('../images/social/git-blue.png'); }
