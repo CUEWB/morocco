@@ -16,4 +16,6 @@ The current website of Columbia University's EWB-Morocco program can be found [h
 Contact
 --------
 
-If you would like to contribute to the redesign of our site, please fork the repository and submit a pull request when you are finished editing.  Any and all changes will be considered and we will get back to you shortly.  Feel free to shoot me an email with any questions or feedback!
+If you would like to contribute to the redesign of our site, please fork the repository and submit a pull request when you are finished editing.  Any and all changes will be considered and we will get back to you shortly.  Feel free to [shoot me an email][email] with any questions or feedback!
+
+[email]: mailto:alexander.kalicki@cuewb.org
