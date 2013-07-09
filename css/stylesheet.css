@@ -302,6 +302,7 @@ footer {
 }
 
 footer .container {
+    position:relative;
     min-height:21em;
 }
 
