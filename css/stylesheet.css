@@ -201,7 +201,7 @@ a:hover {
 
 .page-section-dark {
     padding-bottom:60px;
-    background-color:#6e6e6e;
+    background-color:#4d4d4d;
 }
 
 .section-info {
@@ -290,7 +290,7 @@ a:hover {
 
 #sponsors .image-link img:hover {
     top:0;
-    opacity:.5;
+    opacity:.7;
 }
 
 footer {
