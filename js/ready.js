@@ -1,7 +1,8 @@
-/* on DOM-ready, set up scroll behavior */
+/* on DOM-ready, set up scroll behavior and load current year */
 $(document).ready(function() {
     scrollToAnchor();
     selectOnScroll();
+    loadYear();
 });
 
 
@@ -31,4 +32,10 @@ function selectOnScroll() {
             }
         });
     });
+}
+
+/* load current year into .year tags */
+function loadYear() {
+    var date = new Date();
+    $('.year').text(date.getFullYear());
 }
