@@ -22,11 +22,11 @@ function selectOnScroll() {
     $('#nav-menu li a').each(function() {
         var id = $(this).attr('href');
         $(id).waypoint(function(direction) {
-            if (direction == "down") {
+            if (direction === "down") {
                 $('#nav-menu li.selected').removeClass('selected');
                 $('#nav-menu li a[href="' + id +'"]').parent().addClass('selected');
             }
-            else if (direction == "up" && id != "#home") {
+            else if (direction === "up" && id !== "#home") {
                 $('#nav-menu li.selected').removeClass('selected');
                 $('#nav-menu li a[href="' + id +'"]').parent().prev().addClass('selected');
             }
