@@ -24,7 +24,7 @@ The current website of Columbia University's EWB-Morocco program can be found
 [here][morocco site].
 
 **UPDATE: The current version of the new website is now online!  It's still a 
-work in progress, but you can view it [here][new site].
+work in progress, but you can view it [here][new site].**
 
 [homepage]: http://cuewb.org
 [morocco site]: http://cuewb.org/morocco.html
