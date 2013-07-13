@@ -344,6 +344,7 @@ footer #footer-social .social-link {
     width:30px;
     height:30px;
     background-color:#b0b0b0;
+    background-image:url('../images/social.png');
     transition:all 100ms;
     -webkit-transition:all 100ms;
     -moz-transition:all 100ms;
@@ -355,7 +356,7 @@ footer #footer-social .social-link:hover {
 	background-color:#21abc9;
 }
 
-footer #facebook { background-image:url('../images/social/facebook.png'); }
-footer #google { background:url('../images/social/google.png'); }
-footer #twitter { background:url('../images/social/twitter.png'); }
-footer #git { background:url('../images/social/git.png'); }
+footer #facebook { background-position:0 0; }
+footer #google { background-position:-31px 0; }
+footer #twitter { background-position:-62px 0; }
+footer #git { background-position:-93px 0; }
