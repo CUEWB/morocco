@@ -153,11 +153,11 @@ nav li a {
     height:100%;
     font-weight:500;
     color:#909090;
-    transition:all 100ms;
-    -webkit-transition:all 100ms;
-    -moz-transition:all 100ms;
-    -ms-transition:all 100ms;
-    -o-transition:all 100ms;
+    transition:all 200ms;
+    -webkit-transition:all 200ms;
+    -moz-transition:all 200ms;
+    -ms-transition:all 200ms;
+    -o-transition:all 200ms;
 }
 
 #nav-menu a:hover {
@@ -278,14 +278,14 @@ a:hover {
 
 #sponsors .image-link img {
     position:relative;
-    top:3px;
+    top:4px;
     margin:.75em 1.5em;
     opacity:1;
-    transition: all 200ms;
-    -webkit-transition:all 200ms;
-    -moz-transition:all 200ms;
-    -ms-transition:all 200ms;
-    -o-transition:all 200ms;
+    transition: all 250ms;
+    -webkit-transition:all 250ms;
+    -moz-transition:all 250ms;
+    -ms-transition:all 250ms;
+    -o-transition:all 250ms;
 }
 
 #sponsors .image-link img:hover {
@@ -345,11 +345,11 @@ footer #footer-social .social-link {
     height:30px;
     background-color:#b0b0b0;
     background-image:url('../images/social.png');
-    transition:all 100ms;
-    -webkit-transition:all 100ms;
-    -moz-transition:all 100ms;
-    -ms-transition:all 100ms;
-    -o-transition:all 100ms;
+    transition:all 200ms;
+    -webkit-transition:all 200ms;
+    -moz-transition:all 200ms;
+    -ms-transition:all 200ms;
+    -o-transition:all 200ms;
 }
 
 footer #footer-social .social-link:hover {
