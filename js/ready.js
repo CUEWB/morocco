@@ -2,6 +2,7 @@
 $(document).ready(function() {
     scrollToAnchor();
     selectOnScroll();
+    loadPhotos();
     loadYear();
 });
 
@@ -24,13 +25,30 @@ function selectOnScroll() {
         $(id).waypoint(function(direction) {
             if (direction === "down") {
                 $('#nav-menu li.selected').removeClass('selected');
-                $('#nav-menu li a[href="' + id +'"]').parent().addClass('selected');
+                $('#nav-menu li a[href="' + id +'"]').parent()
+                                                     .addClass('selected');
             }
             else if (direction === "up" && id !== "#home") {
                 $('#nav-menu li.selected').removeClass('selected');
-                $('#nav-menu li a[href="' + id +'"]').parent().prev().addClass('selected');
+                $('#nav-menu li a[href="' + id +'"]').parent().prev()
+                                                     .addClass('selected');
             }
         });
+    });
+}
+
+/* set up photo galleries */
+function loadPhotos() {
+    $("#bridge .section-photos .displayImage").gallery({
+        source: "#bridge .section-photos img"
+    });
+    $("#bridge .section-photos .displayImage").on({
+        mouseenter: function() {
+            $("#bridge .section-photos .displayImage").gallery("stopAnimation");
+        },
+        mouseleave: function() {
+            $("#bridge .section-photos .displayImage").gallery("resumeAnimation");
+        }
     });
 }
 

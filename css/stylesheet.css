@@ -271,6 +271,37 @@ a:hover {
     font-weight:400;
 }
 
+.section-photos {
+    clear:left;
+    margin:0 auto;
+    padding-top:2em;
+    width:960px;
+}
+
+.section-photos .thumbnails {
+    float:left;
+    margin-top:10px;
+}
+
+.section-photos .thumbnails .thumbnail-row {
+    float:left;
+    clear:left;
+    margin-bottom:5px;
+}
+
+.section-photos .thumbnails .thumbnail-row img {
+    display:block;
+    float:left;
+    width:125px;
+    margin-right:5px;
+}
+
+.section-photos .displayImage {
+    float:left;
+    width:700px;
+    height:415px;
+}
+
 #sponsors .sponsor-row {
     margin:0 auto;
     text-align:center;
@@ -303,7 +334,7 @@ footer {
 
 footer .container {
     position:relative;
-    min-height:24em;
+    min-height:22em;
 }
 
 footer .footer-col {
