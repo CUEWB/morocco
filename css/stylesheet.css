@@ -297,13 +297,22 @@ a:hover {
     border-color:#21abc9;
 }
 
-.section-photos .displayImage {
+.section-photos .display-image {
     float:left;
     width:700px;
     height:415px;
     border:3px solid #e95a50;
     border-radius:2px;
     opacity:0;
+}
+
+.section-photos .image-caption {
+    clear:left;
+    margin-left:260px;
+    padding-top:10px;
+    width:700px;
+    height:50px;
+    text-align:center;
 }
 
 #sponsors .sponsor-row {
