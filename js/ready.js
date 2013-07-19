@@ -40,15 +40,8 @@ function selectOnScroll() {
 /* set up photo galleries */
 function loadPhotos() {
     $("#bridge .section-photos .displayImage").gallery({
-        source: "#bridge .section-photos img"
-    });
-    $("#bridge .section-photos .displayImage").on({
-        mouseenter: function() {
-            $("#bridge .section-photos .displayImage").gallery("stopAnimation");
-        },
-        mouseleave: function() {
-            $("#bridge .section-photos .displayImage").gallery("resumeAnimation");
-        }
+        source: "#bridge .section-photos img",
+        selectClass: "shown"
     });
 }
 
