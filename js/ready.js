@@ -39,9 +39,11 @@ function selectOnScroll() {
 
 /* set up photo galleries */
 function loadPhotos() {
-    $("#bridge .section-photos .displayImage").gallery({
+    $("#bridge .section-photos .display-image").gallery({
         source: "#bridge .section-photos img",
-        selectClass: "shown"
+        selectClass: "shown",
+        showCaptions: true,
+        captionTarget: "#bridge .section-photos .image-caption"
     });
 }
 
