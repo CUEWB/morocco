@@ -110,7 +110,7 @@ html, body {
     background:white;
     line-height:1.4;
     height:100%;
-    min-width:1088px;
+    min-width:1000px;
 }
 
 nav {
@@ -170,9 +170,7 @@ nav li a {
 }
 
 #home {
-    overflow:hidden;
-    padding-top:75px;
-    padding-bottom:25px;
+    padding-top:100px;
 }
 
 #home img {
@@ -270,12 +268,12 @@ a:hover {
     clear:left;
     margin:0 auto;
     padding-top:2em;
-    width:960px;
+    width:872px;
 }
 
 .section-photos .thumbnails {
     float:left;
-    margin-top:13px;
+    margin-top:27.5px;
 }
 
 .section-photos .thumbnail-row {
@@ -288,7 +286,7 @@ a:hover {
     display:block;
     float:left;
     margin-right:4px;
-    width:117px;
+    width:98px;
     border:3px solid #a8a8a8;
     border-radius:2px;
 }
@@ -299,8 +297,8 @@ a:hover {
 
 .section-photos .display-image {
     float:left;
-    width:700px;
-    height:415px;
+    width:650px;
+    height:385px;
     border:3px solid #e95a50;
     border-radius:2px;
     opacity:0;
@@ -308,9 +306,9 @@ a:hover {
 
 .section-photos .image-caption {
     clear:left;
-    margin-left:260px;
+    margin-left:219px;
     padding-top:10px;
-    width:700px;
+    width:650px;
     height:50px;
     text-align:center;
 }
