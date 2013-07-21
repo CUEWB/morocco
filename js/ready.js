@@ -44,7 +44,7 @@ function loadPhotos() {
         selectClass: "shown",
         showCaptions: true,
         captionTarget: "#bridge .section-photos .image-caption",
-        waitTime:7000
+        waitTime: 7000
     });
 }
 
