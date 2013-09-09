@@ -5,8 +5,8 @@
  * Source code for site available on GitHub: https://github.com/akalicki/EWB-Morocco
 */
 
-
-/* CSS5 RESET */
+/* CSS5 RESET
+**********************************************/
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -101,7 +101,10 @@ input, select {
 }
 
 
-/* WEBSITE CODE */
+/* WEBSITE CODE
+**********************************************/
+
+/* main site styles */
 html, body {
     font-family:"Exo",sans-serif;
     font-weight:400;
@@ -113,6 +116,7 @@ html, body {
     min-width:1000px;
 }
 
+/* fixed navbar stays on top with scroll */
 nav {
     position:fixed;
     z-index:100;
@@ -123,6 +127,7 @@ nav {
     background-color:#262829;
 }
 
+/* container classes to center content */
 nav .container {
     padding-top:0;
     padding-bottom:0;
@@ -141,6 +146,7 @@ nav .container {
     padding-right:2em;
 }
 
+/* navbar link styles */
 nav ul li {
     display:inline-block;
     height:100%;
@@ -169,6 +175,7 @@ nav li a {
     right:1em;
 }
 
+/* header image */
 #home {
     padding-top:100px;
 }
@@ -178,6 +185,7 @@ nav li a {
     margin:0 auto;
 }
 
+/* normal links */
 a {
     text-decoration:none;
     color:#21abc9;
@@ -188,6 +196,7 @@ a:hover {
     color:#e95a50;
 }
 
+/* main page section styles */
 .page-section {
     padding-bottom:50px;
 }
@@ -201,6 +210,7 @@ a:hover {
     padding:9em 4em 0 4em;
 }
 
+/* small rectangualar title tab on left */ 
 .section-title {
     position:absolute;
     margin-top:60px;
@@ -219,6 +229,7 @@ a:hover {
     color:#262829;
 }
 
+/* big centered text after title */
 .section-subtitle {
     margin:0 auto 1em auto;
     width:90%;
@@ -233,12 +244,14 @@ a:hover {
     color:white;
 }
 
+/* highlighted words in subtitle */
 .section-subtitle span {
     font-size:1.4em;
     font-weight:700;
     color:#e95a50;
 }
 
+/* big "buzz" section under subtitle and left of description */
 .section-buzz {
     float:left;
     margin-right:5%;
@@ -248,12 +261,14 @@ a:hover {
     font-weight:500;
 }
 
+/* highlighted words in buzz section */
 .section-buzz span {
     font-size:1.4em;
     font-weight:700;
     color:#21abc9;
 }
 
+/* paragraph styles for main section descriptions */
 .section-desc {
     float:left;
     width:53%;
@@ -264,6 +279,7 @@ a:hover {
     font-weight:400;
 }
 
+/* styles for section photo galleries */
 .section-photos {
     clear:left;
     margin:0 auto;
@@ -313,6 +329,7 @@ a:hover {
     text-align:center;
 }
 
+/* sponsor image links */
 #sponsors .sponsor-row {
     margin:0 auto;
     text-align:center;
@@ -335,6 +352,7 @@ a:hover {
     opacity:.7;
 }
 
+/* bottom footer styles */
 footer {
     padding-top:2em;
     background-color:#262829;
@@ -374,12 +392,14 @@ footer p {
     line-height:1.3;
 }
 
+/* big black and white EWB logo in corner */
 #footer-logo {
     position:absolute;
     bottom:4em;
     left:4em;
 }
 
+/* social media links */
 footer #footer-social .social-link {
     display:inline-block;
     margin-right:10px;
@@ -393,6 +413,7 @@ footer #footer-social .social-link:hover {
 	background-color:#21abc9;
 }
 
+/* all images in one sprite-sheet - change background-position to choose one */
 footer #facebook { background-position:0 0; }
 footer #google { background-position:-31px 0; }
 footer #twitter { background-position:-62px 0; }
