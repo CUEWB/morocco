@@ -33,7 +33,7 @@ PR Members
 Here's the 2013 PR team!
 
 - Alex Kalicki
-
+- Ignacio Torras
 Contact
 --------
 
