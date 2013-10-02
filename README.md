@@ -27,6 +27,13 @@ The current website of Columbia University's EWB-Morocco program can be found
 [homepage]: http://cuewb.org
 [morocco site]: morocco.cuewb.org
 
+PR Members
+-------------
+
+Here's the 2013 PR team!
+
+- Alex Kalicki
+
 Contact
 --------
 
