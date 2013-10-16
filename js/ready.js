@@ -3,6 +3,7 @@ $(document).ready(function() {
     scrollToAnchor();
     selectOnScroll();
     loadPhotos();
+    setupButtons();
     loadYear();
 });
 
@@ -45,6 +46,13 @@ function loadPhotos() {
         showCaptions: true,
         captionTarget: "#bridge .section-photos .image-caption",
         waitTime: 7000
+    });
+}
+
+/* initialize buttons */
+function setupButtons() {
+    $(".donate-button").click(function() {
+        window.open("https://ssl.charityweb.net/ewbusa/?Custom3=100016", "_blank");
     });
 }
 

@@ -206,6 +206,11 @@ a:hover {
     background-color:#4d4d4d;
 }
 
+.page-section-blue {
+    padding-bottom:50px;
+    background-color:#21abc9;
+}
+
 .section-info {
     padding:9em 4em 0 4em;
 }
@@ -224,7 +229,7 @@ a:hover {
     font-weight:500;
 }
 
-.page-section-dark .section-title {
+.page-section-dark .section-title, .page-section-blue .section-title {
     background-color:white;
     color:#262829;
 }
@@ -239,9 +244,12 @@ a:hover {
     text-align:center;
 }
 
-.page-section-dark .section-subtitle {
-    font-size:1em;
+.page-section-dark .section-subtitle, .page-section-blue .section-subtitle {
     color:white;
+}
+
+.section-small {
+    font-size:1em;
 }
 
 /* highlighted words in subtitle */
@@ -327,6 +335,22 @@ a:hover {
     width:650px;
     height:50px;
     text-align:center;
+}
+
+/* donate button */
+.section-donate {
+    margin-top:20px;
+    text-align:center;
+}
+
+.section-donate .donate-button {
+    padding:6px 12px;
+    font-size:1em;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:10px;
+    background-color:white;
+    font-family:"Exo",sans-serif;
 }
 
 /* sponsor image links */
