@@ -52,7 +52,7 @@ function loadPhotos() {
 /* initialize buttons */
 function setupButtons() {
     $(".donate-button").click(function() {
-        window.open("https://ssl.charityweb.net/ewbusa/?Custom3=100016", "_blank");
+        window.open("https://ssl.charityweb.net/ewbusa/?Custom4=9041", "_blank");
     });
 }
 
