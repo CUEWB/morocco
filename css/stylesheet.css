@@ -427,8 +427,8 @@ footer p {
 footer #footer-social .social-link {
     display:inline-block;
     margin-right:10px;
-    width:30px;
-    height:30px;
+    width:29px;
+    height:29px;
     background-color:#b0b0b0;
     background-image:url('../images/social.png');
 }
@@ -438,7 +438,7 @@ footer #footer-social .social-link:hover {
 }
 
 /* all images in one sprite-sheet - change background-position to choose one */
-footer #facebook { background-position:0 0; }
+footer #facebook { background-position:1px 0; }
 footer #google { background-position:-31px 0; }
 footer #twitter { background-position:-62px 0; }
 footer #git { background-position:-93px 0; }
