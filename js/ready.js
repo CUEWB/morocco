@@ -60,7 +60,7 @@ function loadPhotos() {
 /* initialize buttons */
 function setupButtons() {
     $(".donate-button").click(function() {
-        window.open("https://www.gofundme.com/cuewb_morocco", "_blank");
+        window.open("https://www.gofundme.com/cuewb_morocco","_blank");
     });
 }
 
