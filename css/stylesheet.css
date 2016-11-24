@@ -308,6 +308,7 @@ a:hover {
 
 .section-photos .thumbnail-row img {
     display:block;
+    margin: auto;
     float:left;
     margin-right:4px;
     width:98px;
