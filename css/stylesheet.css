@@ -288,7 +288,7 @@ a:hover {
 }
 
 /* styles for section photo galleries */
-/*.section-photos {
+.section-photos {
     clear:left;
     margin:0 auto;
     padding-top:2em;
@@ -308,7 +308,6 @@ a:hover {
 
 .section-photos .thumbnail-row img {
     display:block;
-    margin: auto;
     float:left;
     margin-right:4px;
     width:98px;
@@ -336,7 +335,7 @@ a:hover {
     width:650px;
     height:50px;
     text-align:center;
-}*/
+}
 
 /* donate button */
 .section-donate {
