@@ -124,7 +124,8 @@ nav {
     left:0;
     right:0;
     height:50px;
-    background-color:#262829;
+    background:url('/images/background1.jpeg') 50% 0 fixed;
+/*     background-color:#262829; */
 }
 
 /* container classes to center content */
