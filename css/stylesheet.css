@@ -106,7 +106,8 @@ input, select {
 
 /* main site styles */
 html, body {
-    font-family:"Exo",sans-serif;
+/*     font-family:"Exo",sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-weight:400;
     font-size:16px;
     color:#262829;
@@ -163,11 +164,11 @@ nav li a {
 }
 
 #nav-menu a:hover {
-    color:#21abc9;
+    color:#333;
 }
 
 #nav-menu li.selected a {
-    color:white;
+    color:#333;
 }
 
 #social-links {
@@ -194,7 +195,7 @@ a {
 }
 
 a:hover {
-    color:#e95a50;
+    color:#333;
 }
 
 /* main page section styles */
