@@ -127,7 +127,7 @@ nav {
     height:100px;
     background:url('/images/background1.jpeg') 50% 0 fixed;
 /*     background-color:#262829; */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
+/*     box-shadow: 0px 0px 10px rgba(0, 0, 0, .7); */
 }
 
 /* container classes to center content */
