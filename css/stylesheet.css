@@ -381,11 +381,12 @@ a:hover {
 
 /* bottom footer styles */
 footer {
-    padding-top:2em;
-    background-color:#262829;
-    color:#b0b0b0;
+    padding-top:3em 1em;
+    background:url('../assets/images/background1.jpg') 50% 0 fixed;
+    color:#3D3935;
     font-size:.9em;
     text-align:left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .7);
 }
 
 footer .container {
