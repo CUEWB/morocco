@@ -425,6 +425,7 @@ footer p {
     position:absolute;
     bottom:4em;
     left:4em;
+    height: 100px;
 }
 
 /* social media links */
